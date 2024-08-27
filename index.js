@@ -35,6 +35,7 @@ const server = http.createServer((req,res)=>{
     }
 })
 
+
 server.listen(5500,()=>{
     console.log("server is running at 5500");
 })
